@@ -1,0 +1,263 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: Verdana, sans-serif;
+  font-size: 20px
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+  {
+  margin: 0;
+  padding: 0
+}
+
+* {
+  box-sizing: border-box
+}
+
+.slider {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 80px
+}
+
+.slick-slide img {
+  max-width: 400px;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-image: linear-gradient(to bottom, #005bbb 50%, #ffd500 50%) 1 1
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1
+}
+
+.slick-dots li button:before {
+  opacity: 1;
+  color: #fff;
+  -webkit-text-stroke: 1px #005bbb
+}
+
+.logo {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px
+}
+
+.menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #005bbb;
+  text-decoration: none
+}
+
+.menu:hover {
+  -webkit-text-stroke: .8px #ffd500
+}
+
+.container {
+  display: flex;
+  width: 403px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 81px
+}
+
+.textcolumn {
+  max-width: 1024px;
+  font-family: 'Montserrat';
+  font-size: 28px;
+  line-height: 140%;
+  color: #005bbb;
+  margin: auto;
+  margin-top: 140px;
+  font-weight: 400
+}
+
+.holder {
+  display: flex;
+  max-width: 1024px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 80.5px
+}
+
+.line {
+  background: #005bbb;
+  width: 100%;
+  height: 1px
+}
+
+.line2 {
+  background: #005bbb;
+  width: 50%;
+  height: 1px
+}
+
+.header {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #005bbb;
+  margin: 16.5px 0 16.5px 0
+}
+
+.container2 {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 38.5px
+}
+
+.box {
+  background: #005bbb;
+  border-left: 10px solid #ffd500;
+  padding: 40px;
+  padding-left: 30px;
+  color: #fff;
+  margin: 0 14px;
+  flex: 1;
+  display: flex
+}
+
+.box p {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 140%;
+  align-self: center;
+  font-weight: 300;
+  margin-top: 27px
+}
+
+input {
+  outline: 0;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  border: 0;
+  margin: 49px 30px
+}
+
+input::placeholder {
+  color: #005bbb
+}
+
+input:focus::placeholder {
+  color: transparent
+}
+
+.holder2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38.5px;
+  border: 1px solid #005bbb;
+  width: 100%;
+  margin-bottom: 160px
+}
+
+.btn {
+  color: #fff;
+  background: #005bbb;
+  border: 2px solid #fff;
+  font-family: 'Montserrat';
+  font-size: 28px;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding: 13px 56px;
+  cursor: pointer;
+  margin: 30px
+}
+
+/* tablet */
+
+@media only screen and (max-width:1199px) {
+  .textcolumn {
+    font-size: 18px
+  }
+
+  .menu {
+    font-size: 15px
+  }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Title</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+      <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <style type="text/css">
+         html, body 
+      </style>
+   </head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+   <body>
+      <!-- Коментарий --> 
+      <span class="logo">
+         <svg width="68" height="59" viewBox="0 0 68 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M68 19.6667L34.0557 0L0 19.6667V59L68 19.6667Z" fill="#005BBB"/>
+            <path d="M68 59V25.6334L38.9227 42.2083L68 59Z" fill="#005BBB"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M35.6327 45.366L12.25 58.866L11.75 58L35.1327 44.5L35.6327 45.366Z" fill="#005BBB"/>
+         </svg>
+      </span>
+      <div class="container">
+         <nav class="navigation"><a href="#" class="menu">gallery</a></nav>
+         <nav class="navigation"><a href="#" class="menu">history</a></nav>
+         <nav class="navigation"><a href="#" class="menu">contact us</a></nav>
+      </div>
+      <section class="regular slider">
+         <img src="img/image1.png"></img>
+         <img src="img/image2.png"></img>
+         <img src="img/image3.png"></img>
+         <img src="img/image4.png"></img>
+         <img src="img/image5.png"></img>
+         <img src="img/image6.png"></img>
+      </section>
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+      <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript">
+         $(document).on('ready', function() {
+           $(".regular").slick({
+             dots: true,
+             infinite: true,
+             slidesToShow: 3,
+             slidesToScroll: 2
+           });
+         });
+      </script>
+      <p class="textcolumn">We are an architectural firm with a long history and extensive experience. Our intention is to help Ukrainians rebuild their homes and buildings even better than they were before the war.<br><br>Please take a look at our history and contact us if you are intrested. We would be really glad to join the help to Ukraine as we can.<br><br>Glory to Ukraine!
+      </p>
+      <div class="holder">
+         <div class="line">
+         </div>
+         <p class="header">history</p>
+         <div class="line2">
+         </div>
+         <div class="container2">
+            <div class="box">
+            <p><span style="font-size:48px">1890</span> Fusce rhoncus at sapien at sollicitudin. Quisque semper sollicitudin libero eget placerat. Aliquam quis laoreet tellus. In id congue lacus. Nulla vestibulum turpis et nisi consequat, non sagittis purus interdum. Nunc eu dolor urna. Quisque fermentum risus quam, at consectetur leo tincidunt id. Nulla facilisi.</p> 
+            </div> 
+            <div class="box">
+               <p><span style="font-size:48px">1920</span> Aliquam erat volutpat. Curabitur et accumsan odio, eget scelerisque risus. Suspendisse ultrices mattis accumsan. In hac habitasse platea dictumst. In non nisl turpis. Sed sit amet purus odio. Donec aliquam leo a tortor tincidunt, vel molestie neque commodo. Ut pellentesque ut ex pulvinar aliquam. Morbi porttitor, felis quis convallis tincidunt, augue felis euismod lectus, a placerat purus justo eget magna. Mauris neque nisi, pharetra, vehicula non lorem.</p>
+            </div>
+            </div>
+      </div>
+      <div class="holder">
+         <div class="line">
+         </div>
+         <p class="header">contact us</p>
+         <div class="line2">
+         </div>
+         <div class="holder2">
+         <input type="text" placeholder="type your message here">
+         <button class="btn">SEND</button>
+         </div>
+  
+      </div>
+   
+   </body>
+</html>
